@@ -1,0 +1,11 @@
+Bill Order 1
+
+Items:
+Name:suc
+Price:3.0
+Name:crispy
+Price:7.0
+Name:Noodles Crispy
+Price:15.0
+
+TOTAL:25.0

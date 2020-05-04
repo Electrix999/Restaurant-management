@@ -1,0 +1,11 @@
+Bill Order 3
+
+Items:
+Name:cartofi
+Price:7.0
+Name:mazare
+Price:5.0
+Name:cocos
+Price:6.5
+
+TOTAL:18.5
