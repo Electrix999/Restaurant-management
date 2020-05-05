@@ -18,7 +18,11 @@ public class Restaurant extends Observable implements IRestaurantProcessing{
 	{
 		restSer=new RestaurantSerialization();
 		this.fileName=fileName;
-		menu=restSer.deserialization(this.fileName);
+		if(restSer.deserialization(this.fileName).size()!=0)
+		{
+			menu=restSer.deserialization(this.fileName);
+		}
+		
 		
 	}
 	
