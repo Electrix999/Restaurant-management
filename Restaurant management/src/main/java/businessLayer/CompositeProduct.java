@@ -24,6 +24,7 @@ public class CompositeProduct implements MenuItem{
 		for(MenuItem x: itemList)
 		{
 			description+=x.getName()+",";
+			
 		}
 		return description;
 	}
